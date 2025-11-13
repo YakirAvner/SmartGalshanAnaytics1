@@ -1,0 +1,54 @@
+Features of GPI:
+1. Build an app to connect to all the Galshan phones:
+    1. Show all existing phones in the app (If API was added to the app by user).
+    2. Access permission to retrieve data from the Galshan App and the phone itself 
+       from each phone which exist or new phone with a Galshan app.   
+
+2. Build a database to access and retrieve all the parameters of the Galshans app function and specific elements which are important for anaylizing the Galshans system.
+   *From the phone access:
+   1. Battery Life
+   2. Temperature
+   3. Time - (Real-Time)
+   4. Date
+   5. API (PhoneID)
+   *From Galshan App:
+        1. If the app isn't functioning:
+           Notify all third-party devices who are connected to the Galshan phones.
+        2. If there are Galshan phones which their battery is almost empty:
+           Notify all third-party devices who are connected to the Galshan phones, when the phone is at 10%.
+
+3. Server: 
+   1. The server will have all the Galshan phones listed in the home screen of the app. 
+   2. It will have a "+" icon to add any phone which is operated with the Galshan app.
+   3. When wanting to connect to the app, there'll be a password requirement for security 
+      and leave unwanted users away from knowing about the Galshan phones data.
+   4. After successfully logging in to the Galshan app of one of the phones there will be the following features:
+        1. By default, it will track and show the data from the phone in real time.
+        2. At the top right of the screen, three dots are displayed as an icon, 
+           having access to search for info. at a specific date.
+   5. Each date or time will have its own data based on the data received from the Galshan phone on that time.
+   6. (Optional) Next to each time period: Day, Week, Month, Year; will have an option to open a graph for specific parameters.
+
+   ______________
+   GPI (Galshan Phone Info.) Architecture System:
+
+   1. On home screen of the S24+, the GPI app button control will appear.
+
+   2. Tapping on the button control of GPI, will open a screen where it will ask to create an account or login to phone user's personal account for authorization.  
+
+   3. Each user will have access to add & connect to the Galshan system info (GSI) depending on the API of the Galshan. 
+
+   4. When added safely to the users account, they'll have access to connect to them anytime they wish.
+
+   5. When connected to the GSI, by default, the each GSI connected will show the Battery Life & Temperature of the Galshans.
+
+   6. Tapping on one of the Galshans will open a live stream of real-time data (by default), presenting the following the parameters written in section 2 of "From the phone access" under "Features of GPI".
+
+   7. In addition, mentioning section 6 above, there will be
+   
+      7.1. An Icon shown as "..." (vertically) to change the time for any case necessary. 
+      7.2. It could be ranged to whatever time needed. 
+      7.3. Option to plot the ranged input to the following parameters written in section 2 of "From the phone access" under "Features of GPI" (API not included).
+      7.4. Option to plot real-time info buy pressing the RTP (Real-Time Plot) button.
+
+   
