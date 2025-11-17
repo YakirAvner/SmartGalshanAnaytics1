@@ -1,4 +1,3 @@
-import Month_Day_Separation as mds
 from DB_Connector import DBConnector as dbc
 import openpyxl
 import pandas as pd
